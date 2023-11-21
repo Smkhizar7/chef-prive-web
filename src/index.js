@@ -3,6 +3,10 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import './assets/fonts/Gilroy-Bold.ttf';
+import './assets/fonts/Gilroy-Medium.ttf';
+import './assets/fonts/Gilroy-Regular.ttf';
+import './assets/fonts/Gilroy-SemiBold.ttf';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
