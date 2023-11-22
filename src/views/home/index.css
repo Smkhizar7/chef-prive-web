@@ -4,100 +4,381 @@
   padding: 0 40px;
 }
 
-.header {
-  padding: 15px 0px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.logo {
-  width: 110px;
-  height: 89px;
-  resize: both;
-}
-
-.nav_links_div {
-  width: 470px;
-  height: 27px;
-  margin: 0 20px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.active_nav_link {
-  font-family: "GilroySemiBold" !important;
-  font-size: 16px;
-  line-height: 18.75px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-
-.active_nav_link_line {
-  width: 32px;
-  height: 3.2px;
-  margin-top: 7px;
-  background-color: #ff9e2c;
-}
-
-.nav_link {
-  font-family: "GilroyMedium";
-  cursor: pointer;
-  font-size: 16px;
-  line-height: 18.75px;
-}
-
-.login_signup_div {
-  display: flex;
-  flex-direction: row;
-}
-
-.signup_btn {
-  display: flex;
-  flex-direction: row;
-  margin-right: 16px;
-  cursor: pointer;
-}
-
-.user_icon {
-  width: 20px;
-  height: 20px;
-  resize: both;
-}
-
-.signup_text {
-  font-family: "GilroyMedium";
-  font-size: 16px;
-  line-height: 18.75px;
-  margin-left: 10px;
-}
-
-.login_signup_divider {
-  width: 0.8px;
-  background-color: #1f1f1f80;
-}
-
-.login_btn {
-  font-family: "GilroyMedium";
-  font-size: 16px;
-  line-height: 18.75px;
-  margin-left: 13px;
-  cursor: pointer;
-}
-
 .content {
+}
+.left_banner_div {
+  width: 50%;
+}
+.right_banner_div {
+  width: 50%;
 }
 .banner_text {
   font-family: "GilroyBold";
   font-size: 72px;
   line-height: 75.96px;
 }
+.banner_desc_div {
+}
+.banner_desc {
+  font-size: 20px;
+  line-height: 23.44px;
+  font-family: "GilroyRegular";
+}
+
+.filter_div {
+  box-shadow: 0px 10px 30px 0px #a9a9a940;
+  border-radius: 20px;
+  padding: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  gap: 40px;
+}
+
+.up_arrow {
+  width: 20px;
+  height: 20px;
+  resize: both;
+  margin-right: 10px;
+}
+
+.region_filter_text {
+  font-size: 20px;
+  font-family: "GilroyBold";
+  line-height: 23.44px;
+  margin-right: 20px;
+}
+.filter_dropdown_icon {
+  width: 15px;
+  height: 15px;
+  resize: both;
+}
+.select_region_text {
+  font-size: 18px;
+  font-family: "GilroyRegular";
+  line-height: 21.09px;
+}
+.calendar_icon {
+  margin-right: 10px;
+  width: 18px;
+  height: 18px;
+  resize: both;
+}
+.users_icon {
+  margin-right: 10px;
+  width: 25px;
+  height: 25px;
+  resize: both;
+}
+.person_dropdown_icon {
+  /* margin-right: 10px; */
+  width: 35px;
+  height: 35px;
+  resize: both;
+}
+.next_btn {
+  width: 86px;
+  height: 86px;
+  box-shadow: 0px 7px 0 0 #feb05440;
+  border-radius: 86px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.next_btn_icon {
+  width: 27px;
+  height: 27px;
+}
+
+.ice_creams_icon {
+  width: 472px;
+  height: 324px;
+  /* box-shadow: 0 10px 20px 0 #716e7a40; */
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+.sweets_icon {
+  width: 221px;
+  height: 145px;
+  position: absolute;
+  right: -143px;
+  top: 176px;
+}
+.bowl_icon {
+  width: 280.61px;
+  height: 280.61px;
+  transform: rotateY("6.63");
+  position: absolute;
+  right: 415.87px;
+  top: 87px;
+}
+.tray_icon {
+  width: 392px;
+  height: 271px;
+  /* transform: rotateY("6.63"); */
+  position: absolute;
+  right: -5px;
+  top: 305px;
+}
+.spring_icon {
+  width: 93px;
+  height: 93px;
+  /* transform: rotateY("6.63"); */
+  position: absolute;
+  right: 425px;
+  top: 339px;
+}
+.spoon_icon {
+  height: 118.33px;
+  position: absolute;
+  right: 512.92px;
+  top: -13px;
+}
 
 .footer {
+}
+
+@media screen and (max-width: 1440px) {
+  .left_banner_div {
+    width: 60%;
+  }
+  .right_banner_div {
+    width: 40%;
+  }
+  .filter_div {
+    justify-content: space-around;
+  }
+  .ice_creams_icon {
+    width: 303px;
+    height: 208px;
+    /* box-shadow: 0 10px 20px 0 #716e7a40; */
+    position: absolute;
+    right: 45px;
+    top: 0px;
+  }
+  .sweets_icon {
+    width: 150px;
+    height: 98px;
+    position: absolute;
+    right: -30px;
+    top: 120px;
+  }
+  .bowl_icon {
+    width: 180px;
+    height: 180px;
+    transform: rotateY("6.63");
+    position: absolute;
+    right: 280px;
+    top: 93px;
+  }
+  .tray_icon {
+    width: 251px;
+    height: 174px;
+    /* transform: rotateY("6.63"); */
+    position: absolute;
+    right: 50px;
+    top: 183px;
+  }
+  .spring_icon {
+    width: 60px;
+    height: 60px;
+    /* transform: rotateY("6.63"); */
+    position: absolute;
+    right: 310px;
+    top: 230px;
+  }
+  .spoon_icon {
+    height: 76px;
+    position: absolute;
+    right: 353px;
+    top: -13px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .left_banner_div {
+    width: 60%;
+  }
+  .right_banner_div {
+    width: 40%;
+  }
+  .banner_text {
+    font-family: "GilroyBold";
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .banner_desc_div {
+  }
+  .banner_desc {
+    font-size: 20px;
+    line-height: 23.44px;
+    font-family: "GilroyRegular";
+  }
+  .filter_div {
+    padding: 20px;
+    width: 80%;
+  }
+  .next_btn {
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+  }
+  .next_btn_icon {
+    width: 20px;
+    height: 20px;
+  }
+  .ice_creams_icon {
+    width: 195px;
+    height: 134px;
+    /* box-shadow: 0 10px 20px 0 #716e7a40; */
+    position: absolute;
+    right: 35px;
+    top: 0px;
+  }
+  .sweets_icon {
+    width: 97px;
+    height: 63px;
+    position: absolute;
+    right: -20px;
+    top: 80px;
+  }
+  .bowl_icon {
+    width: 130px;
+    height: 130px;
+    transform: rotateY("6.63");
+    position: absolute;
+    right: 190px;
+    top: 50px;
+  }
+  .tray_icon {
+    width: 162px;
+    height: 112px;
+    position: absolute;
+    right: 50px;
+    top: 115px;
+  }
+  .spring_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 210px;
+    top: 145px;
+  }
+  .spoon_icon {
+    height: 49px;
+    position: absolute;
+    right: 230px;
+    top: -13px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .layout {
+    padding: 0 20px;
+  }
+  .left_banner_div {
+    width: 100%;
+  }
+  .right_banner_div {
+    width: 100%;
+    height: 300px;
+    /* background-color: red; */
+  }
+  .ice_creams_icon {
+    width: 195px;
+    height: 134px;
+    /* box-shadow: 0 10px 20px 0 #716e7a40; */
+    position: absolute;
+    right: 75px;
+    top: 40px;
+  }
+  .sweets_icon {
+    width: 97px;
+    height: 63px;
+    position: absolute;
+    right: 20px;
+    top: 120px;
+  }
+  .bowl_icon {
+    width: 130px;
+    height: 130px;
+    transform: rotateY("6.63");
+    position: absolute;
+    right: 230px;
+    top: 90px;
+  }
+  .tray_icon {
+    width: 162px;
+    height: 112px;
+    position: absolute;
+    right: 90px;
+    top: 155px;
+  }
+  .spring_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 250px;
+    top: 185px;
+  }
+  .spoon_icon {
+    height: 49px;
+    position: absolute;
+    right: 270px;
+    top: 27px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .right_banner_div {
+    width: 100%;
+    height: 230px;
+  }
+  .filter_div {
+    width: 90%;
+  }
+  .ice_creams_icon {
+    width: 138px;
+    height: 95px;
+    /* box-shadow: 0 10px 20px 0 #716e7a40; */
+    position: absolute;
+    right: 75px;
+    top: 40px;
+  }
+  .sweets_icon {
+    width: 72px;
+    height: 47px;
+    position: absolute;
+    right: 30px;
+    top: 100px;
+  }
+  .bowl_icon {
+    width: 90px;
+    height: 90px;
+    transform: rotateY("6.63");
+    position: absolute;
+    right: 190px;
+    top: 80px;
+  }
+  .tray_icon {
+    width: 115px;
+    height: 80px;
+    position: absolute;
+    right: 80px;
+    top: 135px;
+  }
+  .spring_icon {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 200px;
+    top: 150px;
+  }
+  .spoon_icon {
+    height: 40px;
+    position: absolute;
+    right: 220px;
+    top: 27px;
+  }
 }
