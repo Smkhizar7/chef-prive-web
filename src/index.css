@@ -17,6 +17,13 @@
 }
 
 @font-face {
+  font-family: "GilroySemiBoldItalic";
+  src: local("GilroySemiBoldItalic"),
+    url("./assets/fonts/Gilroy-SemiBoldItalic.ttf") format("truetype");
+  font-weight: 800;
+}
+
+@font-face {
   font-family: "GilroyMedium";
   src: local("GilroyMedium"),
     url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
