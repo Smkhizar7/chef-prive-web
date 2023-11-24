@@ -430,3 +430,330 @@
     resize: both;
   }
 }
+@media screen and (max-width: 426px) {
+  .section_div {
+    height: 150px;
+    margin-top: 20px;
+  }
+  .bg_div {
+    width: 100%;
+    position: absolute;
+    top: 25px;
+  }
+  .iphone_icon {
+    width: 90px;
+    height: 135px;
+    resize: both;
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    z-index: 10;
+  }
+  .pizza_icon {
+    position: absolute;
+    top: 0px;
+    right: 29px;
+    width: 57px;
+    height: 47px;
+    resize: both;
+    z-index: 10;
+  }
+  .iphone_left_icon {
+    position: absolute;
+    top: 30px;
+    left: 25px;
+    width: 3px;
+    height: 7px;
+  }
+  .iphone_right_icon {
+    position: absolute;
+    top: 20px;
+    left: 110px;
+    width: 3px;
+    height: 7px;
+  }
+  .ice_cream_cone_icon {
+    width: 50px;
+    position: absolute;
+    right: -15px;
+    bottom: 5px;
+  }
+  .ellipse1_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 10px;
+    top: 55px;
+  }
+  .ellipse2_icon {
+    width: 56px;
+    height: 56px;
+    position: absolute;
+    left: 110px;
+    bottom: 20px;
+  }
+  .ellipse3_icon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    left: 200px;
+    top: 37px;
+  }
+  .ellipse4_icon {
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    left: 255px;
+    bottom: 20px;
+  }
+  .ellipse5_icon {
+    width: 48px;
+    height: 48px;
+    position: absolute;
+    right: 5px;
+    top: 40px;
+  }
+  .download_heading_div {
+    position: absolute;
+    top: 50px;
+    left: 110px;
+    z-index: 10;
+  }
+  .download_heading {
+    font-family: "GilroyBold";
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .store_icon_div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .google_play_btn {
+    height: 24px;
+    resize: both;
+  }
+  .app_store_btn {
+    height: 24px;
+    resize: both;
+  }
+}
+@media screen and (max-width: 376px) {
+  .section_div {
+    height: 120px;
+    margin-top: 20px;
+  }
+  .bg_div {
+    width: 100%;
+    position: absolute;
+    top: 15px;
+  }
+  .iphone_icon {
+    width: 60px;
+    height: 105px;
+    resize: both;
+    position: absolute;
+    left: 20px;
+    top: 16px;
+    z-index: 10;
+  }
+  .pizza_icon {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 36px;
+    height: 30px;
+    resize: both;
+    z-index: 10;
+  }
+  .iphone_left_icon {
+    position: absolute;
+    top: 25px;
+    left: 17px;
+    width: 2px;
+    height: 5px;
+  }
+  .iphone_right_icon {
+    position: absolute;
+    top: 15px;
+    left: 80px;
+    width: 2px;
+    height: 5px;
+  }
+  .ice_cream_cone_icon {
+    width: 36px;
+    position: absolute;
+    right: -10px;
+    bottom: 5px;
+  }
+  .ellipse1_icon {
+    width: 29px;
+    height: 29px;
+    position: absolute;
+    left: 5px;
+    top: 40px;
+  }
+  .ellipse2_icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 78px;
+    bottom: 16px;
+  }
+  .ellipse3_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 178px;
+    top: 26px;
+  }
+  .ellipse4_icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 228px;
+    bottom: 18px;
+  }
+  .ellipse5_icon {
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    right: 5px;
+    top: 25px;
+  }
+  .download_heading_div {
+    position: absolute;
+    top: 38px;
+    left: 82px;
+    z-index: 10;
+  }
+  .download_heading {
+    font-family: "GilroyBold";
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .store_icon_div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .google_play_btn {
+    height: 24px;
+    resize: both;
+  }
+  .app_store_btn {
+    height: 24px;
+    resize: both;
+  }
+}
+@media screen and (max-width: 320px) {
+  .section_div {
+    height: 100px;
+    margin-top: 20px;
+  }
+  .bg_div {
+    width: 100%;
+    position: absolute;
+    top: 12px;
+  }
+  .iphone_icon {
+    width: 46px;
+    height: 86px;
+    resize: both;
+    position: absolute;
+    left: 16px;
+    top: 13px;
+    z-index: 10;
+  }
+  .pizza_icon {
+    position: absolute;
+    top: 0px;
+    right: 20px;
+    width: 28px;
+    height: 24px;
+    resize: both;
+    z-index: 10;
+  }
+  .iphone_left_icon {
+    position: absolute;
+    top: 20px;
+    left: 12px;
+    width: 2px;
+    height: 5px;
+  }
+  .iphone_right_icon {
+    position: absolute;
+    top: 10px;
+    left: 62px;
+    width: 2px;
+    height: 5px;
+  }
+  .ice_cream_cone_icon {
+    width: 26px;
+    position: absolute;
+    right: -7px;
+    bottom: 7px;
+  }
+  .ellipse1_icon {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    left: 5px;
+    top: 35px;
+  }
+  .ellipse2_icon {
+    width: 30px;
+      height: 30px;
+    position: absolute;
+    left: 62px;
+    bottom: 16px;
+  }
+  .ellipse3_icon {
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    left: 150px;
+    top: 20px;
+  }
+  .ellipse4_icon {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 184px;
+    bottom: 17px;
+  }
+  .ellipse5_icon {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 4px;
+    top: 20px;
+  }
+  .download_heading_div {
+    position: absolute;
+    top: 28px;
+    left: 65px;
+    z-index: 10;
+  }
+  .download_heading {
+    font-family: "GilroyBold";
+    font-size: 10px;
+    line-height: 24px;
+  }
+  .store_icon_div {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .google_play_btn {
+    height: 18px;
+    resize: both;
+  }
+  .app_store_btn {
+    height: 18px;
+    resize: both;
+  }
+}

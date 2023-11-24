@@ -102,11 +102,13 @@ function Banner() {
           <img src={CaretRight} className="next_btn_icon" />
         </div>
       </div>
-      <div className="flex flex-row relative mt-16 items-center">
-        <img src={Review1} className="review_img" />
-        <img src={Review2} className="review_img -left-4 relative" />
-        <img src={Review3} className="review_img -left-8 relative" />
-        <img src={Review4} className="review_img -left-12 relative" />
+      <div className="flex flex-col md:flex-row relative mt-16 gap-5 items-center">
+        <div className="flex flex-row relative w-72">
+          <img src={Review1} className="review_img" />
+          <img src={Review2} className="review_img left-16 absolute" />
+          <img src={Review3} className="review_img left-32 absolute" />
+          <img src={Review4} className="review_img left-48 absolute" />
+        </div>
         <div>
           <p className="review_text text-yellow">Our happy customers</p>
           <div className="mt-2 flex flex-row items-center">

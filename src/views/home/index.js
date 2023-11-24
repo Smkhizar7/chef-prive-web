@@ -6,14 +6,14 @@ import "./index.css";
 
 function Home() {
   return (
-    <Layout className="layout container">
+    <div className="layout container">
       <Header />
       <div className="content">
         <Banner />
         <DownloadSection />
       </div>
       {/* <div className="footer">Footer</div> */}
-    </Layout>
+    </div>
   );
 }
 
