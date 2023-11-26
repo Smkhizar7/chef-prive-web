@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "food-mart-dc298"
+  },
+  "targets": {
+    "food-mart-dc298": {
+      "hosting": {
+        "chef-prive": [
+          "chef-prive"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
