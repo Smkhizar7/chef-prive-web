@@ -3,6 +3,13 @@
 @tailwind utilities;
 
 @font-face {
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./assets/fonts/Poppins-Regular.ttf") format("truetype");
+  font-weight: 400;
+}
+
+@font-face {
   font-family: "GilroyBold";
   src: local("GilroyBold"),
     url("./assets/fonts/Gilroy-Bold.ttf") format("truetype");
@@ -27,7 +34,7 @@
   font-family: "GilroyMedium";
   src: local("GilroyMedium"),
     url("./assets/fonts/Gilroy-Medium.ttf") format("truetype");
-  font-weight: 700;
+  font-weight: 900;
 }
 
 @font-face {

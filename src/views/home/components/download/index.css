@@ -95,13 +95,11 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.google_play_btn {
-  height: 90px;
-  resize: both;
-}
+.google_play_btn,
 .app_store_btn {
   height: 90px;
   resize: both;
+  cursor: pointer;
 }
 @media screen and (max-width: 1440px) {
   .section_div {
@@ -203,10 +201,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 90px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 90px;
     resize: both;
@@ -312,10 +307,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 70px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 70px;
     resize: both;
@@ -421,10 +413,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 50px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 50px;
     resize: both;
@@ -530,10 +519,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 24px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 24px;
     resize: both;
@@ -639,10 +625,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 24px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 24px;
     resize: both;
@@ -705,7 +688,7 @@
   }
   .ellipse2_icon {
     width: 30px;
-      height: 30px;
+    height: 30px;
     position: absolute;
     left: 62px;
     bottom: 16px;
@@ -748,10 +731,7 @@
     flex-direction: row;
     justify-content: space-between;
   }
-  .google_play_btn {
-    height: 18px;
-    resize: both;
-  }
+  .google_play_btn,
   .app_store_btn {
     height: 18px;
     resize: both;

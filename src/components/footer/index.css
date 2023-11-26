@@ -1,0 +1,176 @@
+.footer {
+  width: 100%;
+  padding: 75px 0px;
+}
+.footer_logo {
+  width: 237px;
+}
+.address_heading {
+  font-size: 24px;
+  font-family: "GilroySemiBold";
+}
+.link_icon {
+  width: 19px;
+  height: 19px;
+}
+.links_div {
+  width: 96px;
+}
+.address_div_text {
+  font-size: 16px;
+  font-family: "Poppins";
+  font-weight: 400;
+  line-height: 24px;
+}
+.subscribe_text {
+  font-size: 24px;
+  font-family: "GilroySemiBold";
+}
+.email_field {
+  font-family: "GilroyMedium";
+  width: 256px;
+  height: 56px;
+  font-size: 16px;
+  padding: 18px 20px;
+  border-radius: 10px;
+}
+.submit_btn {
+  width: 56px;
+  height: 56px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.submit_icon {
+  width: 30px;
+  height: 30px;
+  resize: both;
+}
+.social_text {
+  font-family: "GilroySemiBold";
+  font-size: 24px;
+}
+.social_icon {
+  width: 30px;
+  height: 30px;
+  resize: both;
+  cursor: pointer;
+}
+.copyright_text {
+  font-family: "GilroyMedium";
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.horizontal_line {
+  width: 100%;
+  height: 0.8px;
+  background-color: #ffffff;
+}
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding: 60px 40px;
+  }
+  .footer_logo {
+    width: 150px;
+  }
+  .address_div {
+    width: 200px;
+  }
+  .address_heading {
+    font-size: 20px;
+    font-family: "GilroySemiBold";
+  }
+  .link_icon {
+    width: 16px;
+    height: 16px;
+  }
+  .address_div_text {
+    font-size: 14px;
+    font-family: "Poppins";
+    font-weight: 400;
+  }
+  .subscribe_text {
+    font-size: 20px;
+    font-family: "GilroySemiBold";
+  }
+  .email_field {
+    font-family: "GilroyMedium";
+    width: 200px;
+    height: 48px;
+    font-size: 16px;
+    padding: 18px 20px;
+    border-radius: 10px;
+  }
+  .submit_btn {
+    width: 48px;
+    height: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .submit_icon {
+    width: 25px;
+    height: 25px;
+    resize: both;
+  }
+  .social_text {
+    font-family: "GilroySemiBold";
+    font-size: 20px;
+  }
+  .social_icon {
+    width: 25px;
+    height: 25px;
+    resize: both;
+  }
+}
+@media screen and (max-width: 768px) {
+  .footer_logo_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .address_links_div {
+    margin-top: 40px;
+  }
+  .address_div,
+  .links_div,
+  .newsletter_div,
+  .social_div {
+    width: 50%;
+  }
+  .newsletter_social_div {
+    margin-top: 40px;
+    align-items: center;
+  }
+}
+@media screen and (max-width: 426px) {
+  .footer {
+    padding: 40px 20px;
+  }
+  .address_div,
+  .links_div {
+    width: 60%;
+    margin: 0px auto;
+    justify-content: center;
+    align-items: center;
+  }
+  .newsletter_div,
+  .social_div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright_text {
+    text-align: center;
+  }
+  .horizontal_line {
+    display: none;
+  }
+}

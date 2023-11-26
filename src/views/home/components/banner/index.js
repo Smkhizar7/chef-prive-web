@@ -29,8 +29,8 @@ function Banner() {
       <div className="lg:mt-10 md:mt-6 flex sm:flex-row flex-wrap flex-col">
         <div className="left_banner_div">
           <div className="flex flex-col mt-12 md:mt-0">
-            <div className="flex flex-row flex-wrap gap-2 sm:gap-5 md:gap-3">
-              <span className="text-black banner_text">Book </span>
+            <div className="flex flex-col sm:flex-row flex-wrap sm:gap-5 md:gap-3">
+              <span className="text-black banner_text">Book</span>
               <span className="text-yellow banner_text">Private Chef</span>
             </div>
             <span className="text-black  banner_text">for your</span>

@@ -1,18 +1,26 @@
 import React from "react";
-import { Layout } from "antd";
-import { Header } from "../../components";
-import { DownloadSection, Banner } from "./components";
+import { Footer, Header } from "../../components";
+import {
+  DownloadSection,
+  Banner,
+  PopularSection,
+  CategorySection,
+  ReviewSection,
+} from "./components";
 import "./index.css";
 
 function Home() {
   return (
-    <div className="layout container">
+    <div className="layout">
       <Header />
-      <div className="content">
+      <div className="content container mx-auto">
         <Banner />
         <DownloadSection />
+        <PopularSection />
+        <CategorySection />
+        <ReviewSection />
       </div>
-      {/* <div className="footer">Footer</div> */}
+      <Footer />
     </div>
   );
 }

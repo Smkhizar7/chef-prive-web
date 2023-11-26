@@ -1,0 +1,127 @@
+.popular_card {
+  width: 402px;
+  min-width: 402px;
+  height: 468px;
+  box-shadow: 0px 30px 70px 0px #b0b0b040;
+  cursor: pointer;
+}
+.popular_card_img {
+  width: 100%;
+}
+.popular_card_content {
+  padding: 20px;
+}
+.popular_card_title {
+  font-family: "GilroyMedium";
+  font-size: 22px;
+}
+.popular_card_description {
+  font-family: "GilroyMedium";
+  font-size: 18px;
+}
+.popular_card_product_count {
+  font-family: "GilroyRegular";
+  font-size: 18px;
+}
+.product_price {
+  font-family: "GilroyBold";
+  font-size: 26px;
+  margin: 10px 0px;
+}
+.chef_icon {
+  width: 53px;
+  height: 53px;
+}
+.chef_title {
+  font-family: "GilroyMedium";
+  font-size: 20px;
+}
+.rating_star {
+  width: 17px;
+  height: 17px;
+}
+.rating_number {
+  font-size: 22px;
+  font-family: "GilroyMedium";
+}
+@media screen and (max-width: 1024px) {
+  .popular_card {
+    width: 300px;
+    min-width: 300px;
+    height: auto;
+  }
+  .popular_card_content {
+    padding: 15px;
+  }
+  .popular_card_title {
+    font-size: 20px;
+  }
+  .popular_card_description {
+    font-size: 16px;
+  }
+  .popular_card_product_count {
+    font-size: 16px;
+  }
+  .product_price {
+    font-size: 22px;
+    margin: 8px 0px;
+  }
+  .chef_icon {
+    width: 48px;
+    height: 48px;
+  }
+  .chef_title {
+    font-size: 18px;
+  }
+  .rating_star {
+    width: 14px;
+    height: 14px;
+  }
+  .rating_number {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .popular_card {
+    width: 250px;
+    min-width: 250px;
+  }
+  .popular_card_content {
+    padding: 10px;
+  }
+  .popular_card_title {
+    font-size: 16px;
+  }
+  .popular_card_description {
+    font-size: 14px;
+  }
+  .popular_card_product_count {
+    font-size: 14px;
+  }
+  .product_price {
+    font-size: 16px;
+    margin: 6px 0px;
+  }
+  .chef_icon {
+    width: 40px;
+    height: 40px;
+  }
+  .chef_title {
+    font-size: 14px;
+  }
+  .rating_star {
+    width: 12px;
+    height: 12px;
+  }
+  .rating_number {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .chef_div{
+    margin-bottom: 10px;
+  }
+  .product_price {
+    margin: 8px 0px;
+  }
+}

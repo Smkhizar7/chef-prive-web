@@ -1,5 +1,13 @@
 .layout {
   background-color: "white" !important;
   margin: 0 auto;
+  padding: 0px;
+}
+.content {
   padding: 0 40px;
+}
+@media screen and (max-width: 426px) {
+  .content {
+    padding: 0 20px;
+  }
 }

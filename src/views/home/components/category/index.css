@@ -1,0 +1,183 @@
+.heading_dash {
+  width: 40px;
+  height: 3px;
+  border-radius: 5px;
+}
+.category_heading {
+  font-family: "GilroyBold";
+  font-size: 48px;
+}
+.grid_div {
+  height: 700px;
+}
+.grid_big_card {
+  background-image: url("../../../../assets/images/explore_food.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  font-size: 48px;
+  font-family: "GilroyMedium";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.grid_card1 {
+  border-radius: 20px;
+  background-image: url("../../../../assets/images/master_chef.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  font-size: 36px;
+  font-family: "GilroyMedium";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid_card2 {
+  border-radius: 20px;
+  background-image: url("../../../../assets/images/desserts.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  font-size: 36px;
+  font-family: "GilroyMedium";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid_card3 {
+  border-radius: 20px;
+  background-image: url("../../../../assets/images/events.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  font-size: 36px;
+  font-family: "GilroyMedium";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+.grid_card4 {
+  border-radius: 20px;
+  background-image: url("../../../../assets/images/birthdays.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 32px;
+  font-size: 36px;
+  font-family: "GilroyMedium";
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  cursor: pointer;
+}
+@media screen and (max-width: 1440px) {
+  .grid_div {
+    height: 500px;
+  }
+  .grid_big_card {
+    padding: 20px;
+    font-size: 42px;
+  }
+  .grid_card1,
+  .grid_card2,
+  .grid_card3,
+  .grid_card4 {
+    padding: 20px;
+    font-size: 28px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .heading_dash {
+    width: 30px;
+  }
+  .category_heading {
+    font-size: 42px;
+  }
+  .grid_div {
+    height: 400px;
+  }
+  .grid_big_card {
+    padding: 16px;
+    font-size: 38px;
+  }
+  .grid_card1,
+  .grid_card2,
+  .grid_card3,
+  .grid_card4 {
+    padding: 16px;
+    font-size: 24px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .heading_dash {
+    width: 20px;
+  }
+  .category_heading {
+    font-size: 32px;
+  }
+  .grid_div {
+    height: 300px;
+  }
+  .grid_big_card {
+    padding: 12px;
+    font-size: 32px;
+  }
+  .grid_card1,
+  .grid_card2,
+  .grid_card3,
+  .grid_card4 {
+    padding: 12px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .heading_dash {
+    width: 14px;
+  }
+  .category_heading {
+    font-size: 24px;
+  }
+  .grid_div {
+    height: 600px;
+  }
+  .grid_big_card {
+    padding: 12px;
+    font-size: 20px;
+  }
+  .grid_card1,
+  .grid_card2,
+  .grid_card3,
+  .grid_card4 {
+    padding: 12px;
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .heading_dash {
+    width: 12px;
+    height: 2px;
+  }
+  .category_heading {
+    font-size: 18px;
+  }
+  .grid_div {
+    height: 450px;
+  }
+  .grid_card1,
+  .grid_card2,
+  .grid_card3,
+  .grid_card4 {
+    padding: 10px;
+    font-size: 16px;
+  }
+}

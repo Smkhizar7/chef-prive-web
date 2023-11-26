@@ -18,6 +18,7 @@ import IphoneLeftIcon from "./icons/iphone-left-icon.png";
 import IphoneRightIcon from "./icons/iphone-right-icon.png";
 import Iphone from "./images/iphone.png";
 import Logo from "./icons/Logo.png";
+import CaretLeft from "./icons/left_carret.png";
 import MasterCard from "./images/master-card.png";
 import Pizza from "./images/pizza.png";
 import Review1 from "./images/review_1.png";
@@ -34,8 +35,31 @@ import UpArrow from "./icons/up-arrow.png";
 import UserIcon from "./icons/user_icon.png";
 import Users from "./icons/users.png";
 import Visa from "./icons/visa.png";
+import Chef from "./images/chef.png";
+import Dish1 from "./images/Dish1.png";
+import Dish2 from "./images/Dish2.png";
+import Dish3 from "./images/Dish3.png";
+import Birthdays from "./images/birthdays.png";
+import ExploreFood from "./images/explore_food.png";
+import MasterChef from "./images/master_chef.png";
+import Desserts from "./images/desserts.png";
+import Events from "./images/events.png";
+import UserImg from "./images/user_img.png";
+import WhiteLogo from "./icons/white_logo.png";
+import Location from "./icons/location.png";
+import Mail from "./icons/mail.png";
+import Phone from "./icons/phone.png";
+import UpLeftArrow from "./icons/up_left_arrow.png";
+import Facebook from "./icons/facebook.png";
+import Instagram from "./icons/instagram.png";
+import Twitter from "./icons/twitter.png";
 
 export {
+  Birthdays,
+  ExploreFood,
+  MasterChef,
+  Desserts,
+  Events,
   AppStoreBtnIcon,
   Bowl,
   Calendar,
@@ -43,6 +67,11 @@ export {
   CaretCircleUp,
   CaretDown,
   CaretRight,
+  CaretLeft,
+  Chef,
+  Dish1,
+  Dish2,
+  Dish3,
   DownloadSectionBGBox,
   Ellipse1,
   Ellipse2,
@@ -72,4 +101,13 @@ export {
   UserIcon,
   Users,
   Visa,
+  UserImg,
+  WhiteLogo,
+  Location,
+  Mail,
+  Phone,
+  UpLeftArrow,
+  Facebook,
+  Instagram,
+  Twitter,
 };

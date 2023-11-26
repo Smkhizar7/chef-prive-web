@@ -1,0 +1,212 @@
+.review_heading {
+  font-size: 64px;
+  font-family: "GilroyBold";
+}
+.review_card_div {
+  min-width: 412px;
+  width: 412px;
+  border-radius: 30px;
+  box-shadow: 0px 15px 35px 0px #bdbdbd40;
+  padding: 20px 25px;
+}
+.review_user_img {
+  width: 102px;
+  height: 102px;
+  resize: both;
+}
+.user_title {
+  font-family: "GilroyRegular";
+  font-size: 26px;
+}
+.user_description {
+  font-family: "GilroyRegular";
+  font-size: 20px;
+}
+.review_text {
+  font-size: 18px;
+  margin-top: 20px;
+}
+.rating_div {
+  margin-top: 35px;
+  margin-bottom: 16px;
+}
+.rating_icon {
+  width: 20px;
+  height: 20px;
+  resize: both;
+  margin-right: 10px;
+}
+.rating_text {
+  font-family: "GilroyBold";
+  font-size: 20px;
+}
+.swipe_btn {
+  width: 55px;
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.left_icon,
+.right_icon {
+  width: 20px;
+  height: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .review_heading {
+    font-size: 56px;
+  }
+  .review_card_div {
+    min-width: 300px;
+    width: 300px;
+  }
+  .review_user_img {
+    width: 80px;
+    height: 80px;
+    resize: both;
+  }
+  .user_title {
+    font-family: "GilroyRegular";
+    font-size: 20px;
+  }
+  .user_description {
+    font-family: "GilroyRegular";
+    font-size: 18px;
+  }
+  .review_text {
+    font-size: 16px;
+    margin-top: 20px;
+  }
+  .rating_icon {
+    width: 18px;
+    height: 18px;
+    resize: both;
+    margin-right: 10px;
+  }
+  .rating_text {
+    font-family: "GilroyBold";
+    font-size: 18px;
+  }
+  .swipe_btn {
+    width: 48px;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .left_icon,
+  .right_icon {
+    width: 18px;
+    height: 18px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .review_heading {
+    font-size: 42px;
+  }
+  .review_card_div {
+    min-width: 250px;
+    width: 250px;
+  }
+  .review_user_img {
+    width: 60px;
+    height: 60px;
+    resize: both;
+  }
+  .user_title {
+    font-family: "GilroyRegular";
+    font-size: 16px;
+  }
+  .user_description {
+    font-family: "GilroyRegular";
+    font-size: 14px;
+  }
+  .review_text {
+    font-size: 12px;
+    margin-top: 14px;
+  }
+  .rating_div{
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+  .rating_icon {
+    width: 14px;
+    height: 14px;
+    resize: both;
+    margin-right: 4px;
+  }
+  .rating_text {
+    font-family: "GilroyBold";
+    font-size: 14px;
+  }
+  .swipe_btn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .left_icon,
+  .right_icon {
+    width: 12px;
+    height: 12px;
+  }
+}
+@media screen and (max-width: 426px) {
+  .review_heading {
+    font-size: 36px;
+  }
+  .review_card_div {
+    min-width: 220px;
+    width: 220px;
+    border-radius: 15px;
+  }
+  .review_user_img {
+    width: 40px;
+    height: 40px;
+    resize: both;
+  }
+  .user_title {
+    font-family: "GilroyRegular";
+    font-size: 14px;
+  }
+  .user_description {
+    font-family: "GilroyRegular";
+    font-size: 12px;
+  }
+  .review_text {
+    font-size: 10px;
+    margin-top: 12px;
+  }
+  .rating_div{
+    margin-top: 10px;
+    margin-bottom: 0px;
+  }
+  .rating_icon {
+    width: 12px;
+    height: 12px;
+    resize: both;
+    margin-right: 4px;
+  }
+  .rating_text {
+    font-family: "GilroyBold";
+    font-size: 12px;
+  }
+  .swipe_btn {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+  }
+  .left_icon,
+  .right_icon {
+    width: 10px;
+    height: 10px;
+  }
+}

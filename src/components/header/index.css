@@ -1,3 +1,6 @@
+.header_main {
+  padding: 0 40px;
+}
 .header {
   padding: 15px 0px;
   display: flex;
@@ -101,6 +104,9 @@
 @media screen and (max-width: 767px) {
   .header {
     display: none;
+  }
+  .header_main {
+    padding: 0 20px;
   }
   .mobile_header {
     display: block;

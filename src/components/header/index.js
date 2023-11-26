@@ -5,7 +5,7 @@ import "./index.css";
 function Header() {
   const [openHeader, setOpenHeader] = useState(false);
   return (
-    <>
+    <div className="container header_main mx-auto">
       <div className="header">
         <img src={Logo} className="logo" />
         <div className="nav_links_div">
@@ -62,7 +62,7 @@ function Header() {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 }
 
